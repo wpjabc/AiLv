@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>test</title>
+	<style>
+		button{
+			border:none;
+			outline: none;
+			background:lightblue;
+			padding:20px 40px;
+			border-radius: 3px;
+			margin:100px auto;
+		}
+	</style>
+	<script src="jquery-2.1.4.min.js"></script>
+</head>
+<body>
+	<button>连接</button>
+	<script>
+		$('button').on('click',function(){
+			$.ajax({
+				type:"post",
+				url:"http://127.0.0.1:3000/checkuser",
+				data:{
+					phone:13360941111,
+					password:123123
+				},
+				success(res){
+					console.log(res)
+				},
+				err(error){
+					console.log('失败了：'+error)
+				}
+			})
+		})
+	</script>
+</body>
+</html>
+
+<!-- id: 2,
+					name: '曾英俊',
+					sex: '男',
+					address: '广东省深圳市南山区',
+					birthday: 123123,
+					email: '1097184608@qq.com',
+					school: '北京大学',
+					work: '搬砖',
+					idcard: 441501199612241234 -->

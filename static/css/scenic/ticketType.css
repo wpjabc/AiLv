@@ -1,0 +1,37 @@
+
+.orderTicket{
+    margin:0 20px;
+}
+
+.type-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 2rem 0;
+    
+}
+.slide {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height .5s cubic-bezier(0, 1, 0, 1) -.1s;
+    display: flex;
+    flex-direction: column;
+}
+.animate {
+    max-height: 9999px;
+    transition-timing-function: cubic-bezier(0.5, 0, 1, 0);
+    transition-delay: 0s;
+}
+.classify-type{
+    display: flex;
+    justify-content: space-between;
+    padding:0 10px;
+}
+.ticket-choice:not(:last-of-type){
+    border-bottom:1px solid #ccc;
+    padding: 20px 0;
+}
+
+.countNumber{
+
+    align-self: flex-end;
+} 

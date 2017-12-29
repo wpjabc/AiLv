@@ -1,0 +1,217 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+.station html, .station body {
+	width: 100%;
+	height: 100%;
+	font-size: .3rem;
+	background: #fff;
+}
+.station {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background: #fff;
+    /*filter: invert(87%) opacity(.9);*/
+}
+.station header {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 50%;
+	margin-left: -50%;
+	padding: 2% 3%;
+	color: #000;
+	background: #fff;
+	z-index: 1100;
+}
+
+.headerTop {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	text-align: center;
+	/* margin: 0.2rem 0 0.4rem; */
+	padding: 1rem 0;
+}
+
+/* .headerTop>span>i {
+	width: 50%;
+	display: inline-block;
+	text-align: left;
+} */
+/* .headerTop>span:nth-of-type(2) {
+	width: 100%;
+	display: inline-block;
+	position: absolute;
+	left: 50%;
+	margin-left: -50%;
+	text-align: center;
+} */
+/* .headerTop>span:last-of-type {
+	width: 50%;
+	display: inline-block;
+	position: relative;
+	text-align: right;
+} */
+.headerBottom {
+	display: flex;
+	justify-content: space-around;
+}
+
+.headerBottom>span:first-child {
+	flex: 1.5;
+	position: relative;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+.headerBottom>span:first-child>input {
+	color: #0067b9;
+}
+.headerBottom>span:last-child {
+	flex: 1;
+	position: relative;
+}
+.headerBottom>span:last-child>input {
+	color: rgb(85, 85, 85);
+    background: rgb(238, 238, 238);
+}
+.headerBottom>span>input {
+	width: 100%;
+	padding: 6px;
+	color: #555;
+	border: 1px solid rgba(0,0,0, .1);
+	border-radius: 3px;
+}
+.startStation, .endStation{
+	font-size: .3rem;
+}
+.clearStationBtn {
+	width: 20px;
+	height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	position: absolute;
+	right: 8px;
+	top: 50%;
+    margin-top: -10px;
+    border-radius: 20px;
+    color: #a2a2a2;
+    z-index: 999;
+}
+.clearStationBtn[data="1"] {
+	transform: scale(0);
+}
+.station .content {
+	width: 100%;
+	position: relative;
+	top: 6rem;
+	padding: 0;
+}
+/*字母查询*/
+#quickFind {
+	width: 8%;
+	height: 100%;
+	display: flex;
+    align-items: center;
+    flex-flow: column;
+	position: fixed;
+	right: 0;
+	top: 0;
+	padding-top: 7rem;
+	color: #666;
+	font-size: .22rem;
+	background: #eee;
+	z-index: 1001;
+}
+#quickFind>p {
+	width: 100%;
+	padding: 0;
+	text-align: center;
+	background: transparent;
+}
+.station .content>div {
+	width: 92%;
+	position: relative;
+}
+/*常用城市、热门城市--标题*/
+.station .content>div>p:first-child {
+	padding: 4px 10px;
+	color: #0067b9;
+	background: #f9f9f9;
+	box-shadow: 0 1px 2px #e0dede;
+}
+/*常用城市、热门城市--内容*/
+.station .cityContent {
+	display: flex;
+	padding: 14px 10px;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	overflow-y: scroll;
+}
+.cityContent>span {
+	flex: 1;
+	display: block;
+    position: relative;
+	margin: 10px 20px;
+	text-align: center;
+	white-space: nowrap;
+}
+.hotCity>p {
+	width: 100%;
+	background: #f9f9f9;
+	z-index: 999;
+}
+/*车站列表*/
+.stationLists {
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.stationLists>p {
+	width: 100%;
+	height: 2rem;
+	position: relative;
+	left: 50%;
+	z-index: 1000;
+    transform: translateX(-50%);
+	box-shadow: 0 1px 2px #e0dede;
+}	
+.stationLists>span {
+	height: 1.6rem;
+	flex: 1;
+	display: block;
+    position: relative;
+    padding: 0 3px;
+	margin: 10px 20px;
+	text-align: center;
+	white-space: nowrap;
+}
+
+.stationItem {
+	color: #999;
+	user-select: none;
+}
+
+
+.letterNotice {
+	width: 50px;
+	height: 50px;
+	display: none;
+	position: fixed;
+	padding: 10px;
+	top: 50%;
+	left: 50%;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	background: rgba(0,0,0, .8);
+	transform: translate(-34px, -25px);
+	z-index: 9999;
+}

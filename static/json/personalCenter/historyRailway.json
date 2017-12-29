@@ -1,0 +1,36 @@
+{   
+    "historyRailway":[
+        {
+            "startArea":"广州",
+            "endArea":"湛江",
+            "indentStatus":"已乘车",
+            "indentNumber":17090164619,
+            "indentTime":"2017-5-15 12:00",
+            "indentmoney":80
+        },
+        {
+            "startArea":"湛江",
+            "endArea":"广州",
+            "indentStatus":"已乘车",
+            "indentNumber":17091145515,
+            "indentTime":"2017-5-15 12:00",
+            "indentmoney":80
+        },
+        {
+            "startArea":"广州",
+            "endArea":"中山",
+            "indentStatus":"已乘车",
+            "indentNumber":17100132151,
+            "indentTime":"2017-5-15 12:00",
+            "indentmoney":50
+        },
+        {
+            "startArea":"阳江",
+            "endArea":"湛江",
+            "indentStatus":"已乘车",
+            "indentNumber":17063045713,
+            "indentTime":"2017-5-15 12:00",
+            "indentmoney":40
+        }
+    ]
+}

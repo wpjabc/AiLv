@@ -1,0 +1,40 @@
+#regphone{
+    background:-webkit-radial-gradient(50px 50px, #008080,#21CBAD)
+}
+#regphone .row-regname{
+    padding:10px;
+    color:white;
+}
+#regphone .row-regname p{
+    padding:10px;
+    font-size:2rem;
+    color:white;
+}
+#regphone .container-regname{
+    padding:20px;
+}
+#regphone .container-regname>p{
+    font-size:1.5rem;
+    margin-bottom: 1.5rem;
+    color:white;
+}
+#regphone #xinput{
+    padding:0px;
+    width:100%;
+    background:transparent;
+    margin-top:0.5rem;
+    color:white;
+    height:2rem;
+    font-size:1.5rem;
+    box-sizing: border-box;
+    outline: none;
+    border:none;
+    border-bottom:1px solid rgba(255,255,255,1);
+}
+#regphone .footer-regname{
+    position: fixed;
+    bottom: 1rem;
+    color:white;
+    text-align: right;
+    right:20px;
+}

@@ -1,0 +1,91 @@
+.Inbox2-container{
+  width:100%;
+}
+
+.Inbox2-container>div{
+  padding-left: 1rem;
+  padding-right: 1rem;
+  box-sizing: border-box;
+}
+
+.Inbox2-header{
+  width:100%;
+  height:3rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: fixed;
+  top:0;
+  box-shadow:0px 1px 5px #C9CECE;
+  background: #ffffff;
+  transition:0.5s;
+}
+
+.Inbox2-header>i{
+  font-size: 1rem;
+  transition:0.2s;
+}
+
+.p-top{
+  padding-top: 3rem;
+}
+
+.Inbox2-title{
+  font-family: 黑体;
+  font-size: 30px;
+  padding-top:0.5rem;
+}
+
+.information{
+  padding: 1rem 0.1rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #cccccc;
+}
+
+.information-details{
+  width: 85%;
+  padding: 0 0.5rem;
+}
+
+.information-title{
+  width: 100%;
+  font-family: 黑体;
+  font-size: 22px;
+}
+
+.information-title>p{
+  width: 100%;
+  word-wrap:break-word;
+}
+
+.information-main{
+  font-family: 微软雅黑;
+  font-size: 18px;
+  margin-top: 0.4rem;
+  color: #7190AD;
+}
+
+.information-main>p{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.information-delete{
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.weui-dialog__hd{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+
+
+
+

@@ -1,0 +1,21 @@
+.row-cr{
+    padding:10px 10px;
+}
+.row-cr p{
+    padding:10px 10px;
+    font-size:2rem;
+}
+.container-cr{
+    padding:10px 20px;
+}
+#cr .hotelRoom{
+    padding:2rem 0;
+    border-bottom:1px solid rgba(0,0,0,0.2);
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+}
+.reserve-cr{
+    color:#037936;
+}

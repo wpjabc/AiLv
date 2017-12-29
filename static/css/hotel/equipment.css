@@ -1,0 +1,26 @@
+.equipment{
+    padding:10px;
+}
+.container-equip{
+    padding:10px;
+}
+.container-equip>p{
+    font-size:2rem;
+}
+.container-equip li{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1rem 0;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.container-equip li:last-of-type{
+    border:none;
+}
+.ul-equip{
+    margin-top:2rem;
+}
+.ul-equip li{
+    margin:0px;
+}

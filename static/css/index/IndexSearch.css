@@ -1,0 +1,32 @@
+
+.indexSearch .head{
+  height: 5rem;
+}
+
+.indexSearch .mianer{
+  padding-top: 5.5rem;
+  margin: 0 10px;
+}
+
+
+.indexSearch .null{
+  width:100%;
+  position: fixed;
+  top:0;
+  bottom: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.indexSearch .null>span{
+  font-size: 1rem;
+}
+
+.indexSearch_title{
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding-bottom: 0.8rem
+}

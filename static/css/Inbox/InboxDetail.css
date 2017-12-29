@@ -1,0 +1,53 @@
+
+.InboxDetail-container{
+  width:100%;
+  font-family: '微软雅黑';
+}
+
+.InboxDetail-header{
+  width:100%;
+  height:3rem;
+  background: #fff;
+  box-sizing: border-box;
+  padding:2rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+}
+
+.InboxDetail-operation{
+  width:7rem;
+  height:auto;
+  background: #008489;
+  position: fixed;
+  right:1rem;
+  top: 3rem;
+  transition: all 0.2s linear ;
+}
+
+.operation-frame{
+  width: 100%;
+  padding: 0 5% 0 10%;
+  box-sizing: border-box;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 0.01rem solid rgba(10,100,103,0.9);
+}
+
+.operation-frame>span{
+  margin-left: 10%;
+}
+
+.InboxDetail-title{
+  padding: 4rem 1rem 0 1rem;
+  font-size: 1.5rem;
+  word-wrap:break-word
+}
+
+.InboxDetail-content{
+  padding: 1rem 1rem 0 1rem;
+  font-size: 1rem;
+  word-wrap:break-word
+}

@@ -1,0 +1,41 @@
+#regname{
+    background:-webkit-radial-gradient(50px 50px, #008080,#21CBAD)
+}
+#regname .row-regname{
+    padding:10px;
+    color:white;
+}
+#regname .row-regname p{
+    padding:10px;
+    font-size:2rem;
+    color:white;
+}
+#regname .container-regname{
+    padding:20px;
+}
+#regname .container-regname>div{
+    margin-bottom: 1.5rem;
+    color:white;
+}
+#regname .container-regname>div p{
+    font-size:1.5rem;
+}
+#regname .container-regname input{
+    width:100%;
+    background:transparent;
+    margin-top:0.5rem;
+    color:white;
+    height:2rem;
+    font-size:1.5rem;
+    outline: none;
+    border:none;
+    border-bottom:1px solid rgba(255,255,255,1);
+    /* border-bottom:1px solid black; */
+}
+#regname .footer-regname{
+    position: fixed;
+    bottom: 1rem;
+    color:white;
+    text-align: right;
+    right:20px;
+}

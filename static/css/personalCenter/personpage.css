@@ -1,0 +1,26 @@
+.personpage .person{
+    padding: 0px 20px 0px;
+}
+.personpage .person_header{
+    width: 100%;
+}
+.personpage .person_header>div{
+    padding: 60px 20px 20px 20px;
+}
+
+.personpage .person_nav_list{
+    border-top: 1px solid #e0e0e0;
+    display: flex;
+    color: #000;
+}
+.personpage .person_nav_icon{
+    text-align: right;
+    flex: 1
+}
+.personpage .person_cell{
+    width:100%;
+}
+
+.personpage  .wishlist_a:last-of-type{
+    color:#ff0000;
+}

@@ -1,0 +1,115 @@
+/*footer导航样式*/
+
+/*.paddingBottom{
+  padding-bottom: 2.8rem;
+}
+
+.footer{
+  width: 100%;
+  height:auto;
+  position: fixed;
+  bottom: 0;
+  background: #fff;
+  box-shadow:0px -1px 5px #C9CECE;
+}
+
+.footer-nav{
+  width: 100%;
+  height:auto;
+  display: flex;
+}
+
+.footer-nav>li{
+  flex: 1;
+  height: 2.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footer-nav>li>i{
+  font-size: 1.2rem;
+}
+
+.footer-nav>li>span{
+  font-size: 0.6rem;
+}*/
+
+
+.footer_blank {
+    height: 2.8rem;
+}
+
+.footer_menu_lists {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2.8rem;
+    display: flex;
+    background: #fff;
+    color: #8a8a8a;
+}
+
+/*[data-dpr="2"] .footer_menu_lists {
+    font-size: 1.5rem;
+}
+
+[data-dpr="3"] .footer_menu_lists {
+    font-size: 27px;
+}*/
+
+.footer_menu_item {
+    flex: 1;
+    text-align: center;
+    font-size:0.6rem;
+}
+
+.footer_menu_item_link {
+    display: block;
+    position: relative;
+    background: url('../../images/footer_bar/look_icon.png') center 0rem no-repeat;
+    background-size: 1.2rem;
+    padding-top: 1.4rem;
+}
+
+ /*底部图片*/
+.footer_menu_home {
+    background-image: url('../../images/footer_bar/look_icon.png')
+}
+
+.footer_menu_home.router-link-active {
+    background-image: url('../../images/footer_bar/look_active_icon.png')
+    /*background-image: url('../../images/footer_bar/look_active_icon.png')*/
+}
+
+.footer_menu_lovehotel {
+    background-image: url('../../images/footer_bar/lovehotel_icon.png')
+}
+
+.footer_menu_lovehotel.router-link-active {
+    background-image: url('../../images/footer_bar/lovehotel_active_icon.png')
+}
+
+.footer_menu_Inbox {
+    background-image: url('../../images/footer_bar/Inbox_icon.png')
+}
+
+.footer_menu_Inbox.router-link-active {
+    background-image: url('../../images/footer_bar/Inbox_active_icon.png')
+}
+
+.footer_menu_personpage {
+    background-image: url('../../images/footer_bar/personpage_icon.png')
+}
+
+.footer_menu_personpage.router-link-active {
+    background-image: url('../../images/footer_bar/personpage_active_icon.png')
+}
+
+.footer .router-link-active {
+   color: #E64340;
+}
+.footer a{
+    color:#ccc;
+}

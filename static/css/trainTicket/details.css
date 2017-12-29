@@ -1,0 +1,96 @@
+.details_main{
+	padding-top:9rem;
+}
+.details_top>ul{
+	width:100%;
+	height:10rem;
+	/*line-height:2rem;*/
+	padding:1.5rem 0;
+	display:flex;
+	background:#fff;
+}
+.details_top>ul li{
+	flex:1;
+	text-align:center;
+}
+.details_top>ul li ul{
+	width:100%;
+	height:100%;
+}
+.details_top>ul li ul li{
+	width:100%;
+	height:33.333333333%;
+	position: relative;
+}
+.details_top>ul li ul li:nth-of-type(3){
+	font-size:14px;
+}
+.details_top>ul>li:nth-of-type(2){
+	font-size:14px;
+}
+.details_time{
+	font-size:20px;
+}
+.details_over{
+	font-size:20px;
+}
+.border{
+	width:100%;
+	border-top:1px solid black;
+	position: absolute;
+	left:0px;
+	top:0.6rem;
+	z-index:0;
+}
+.border_span{
+	display:block;
+	width:60%;
+	height:1rem;
+	background:#fff;
+	color:#5695E5;
+	margin: 0 auto;
+	position: absolute;
+	left:20%;
+}
+.purchase{
+	width:100%;
+	/*height:8rem;*/
+	background:#fff;
+	margin-top:1rem;
+}
+.purchase>li{
+	width:100%;
+	height:32.88888888%;
+	margin:0 auto;
+	border-bottom:1px solid #ddd;
+}
+.purchase>li ul{
+	display:flex;
+}
+.purchase>li ul li{
+	flex:1;
+	line-height:2.8rem;
+}
+.purchase>li ul li .reservation{
+	display:inline-block;
+	width:50%;
+	height:60%;
+	float:right;
+	margin-top:0.6rem;
+	margin-right:1rem;
+	line-height:1.8rem;
+	border:1px solid #f90;
+	text-align:center;
+	border-radius:4px;
+	color:#f90;
+}
+.purchase>li ul li:nth-of-type(1){
+	margin-left:1rem;
+}
+.purchase>li ul li:nth-of-type(2){
+	color:#f90;
+}
+.purchase>li ul li:nth-of-type(3) span:nth-of-type(1){
+	font-size:12px;
+	text-align:center;
+}

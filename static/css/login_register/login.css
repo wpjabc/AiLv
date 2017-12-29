@@ -1,0 +1,54 @@
+#login{
+    background:-webkit-radial-gradient(50px 50px, #008080,#21CBAD)
+}
+#login .row-regname{
+    padding:10px;
+    color:white;
+}
+#login .row-regname p{
+    padding:10px;
+    font-size:2rem;
+    color:white;
+}
+#login .container-regname{
+    padding:20px;
+}
+#login .container-regname>div{
+    margin-bottom: 1.5rem;
+    color:white;
+}
+#login .container-regname>div p{
+    font-size:1.5rem;
+}
+#login #xinput{
+    padding:0px!important;
+    width:100%;
+    background:transparent;
+    margin-top:0.5rem;
+    color:white;
+    height:2rem;
+    font-size:1.5rem;
+    box-sizing: border-box;
+    outline: none;
+    border:none;
+    border-bottom:1px solid rgba(255,255,255,1);
+}
+#login .container-regname>div:last-of-type input{
+    width:100%;
+    background:transparent;
+    margin-top:0.5rem;
+    color:white;
+    height:2rem;
+    font-size:1.5rem;
+    outline: none;
+    border:none;
+    border-bottom:1px solid rgba(255,255,255,1);
+    /* border-bottom:1px solid black; */
+}
+#login .footer-regname{
+    position: fixed;
+    bottom: 1rem;
+    color:white;
+    text-align: right;
+    right:20px;
+}

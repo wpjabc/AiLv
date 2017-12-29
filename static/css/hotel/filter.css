@@ -1,0 +1,30 @@
+.row-filter{
+    padding:10px;
+    margin-bottom:1rem;
+}
+.row-filter p{
+    padding: 10px;
+    font-size:2rem;
+}
+.container-filter{
+    padding:20px;
+    margin-bottom: 2rem;
+}
+.price-filter{
+    margin-bottom: 1rem;
+}
+#filter label{
+    padding:1rem 0!important;
+    font-size:1.1rem;
+}
+.oneOfFilter{
+    margin-bottom:3rem;
+}
+.fixed-filter{
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    padding: 20px;
+    box-sizing: border-box;
+    background:white;
+}

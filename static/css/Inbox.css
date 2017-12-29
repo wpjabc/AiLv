@@ -1,0 +1,113 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  width: 100%;
+  height:2.8rem;
+  box-sizing:border-box;
+  padding: 0rem 1rem;
+  /*border-bottom: 1px solid #B4B9BF;*/
+  display: flex;
+  justify-content: space-between;
+ }
+
+.header-title{
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.header-title>p{
+  font-size: 1.2rem;
+  display: inline-block;
+}
+
+.header-title>i{
+  padding: 0 5px;
+  font-size: 1.2rem;
+}
+
+/**/
+
+/*.clearBtn{*/
+  /*width: 100%;*/
+  /*height:3rem;*/
+  /*box-sizing:border-box;*/
+  /*background: yellow;*/
+  /*padding: 0rem 1rem  0 1rem;*/
+  /*margin-bottom: 4rem;*/
+  /*display: flex;*/
+  /*justify-content: center;*/
+  /*align-items: center;*/
+/*}*/
+
+/*.clearBtn>i{*/
+  /*font-size: 1.8rem;*/
+/*}*/
+
+
+
+
+
+/*消息列*/
+
+.information-list{
+  box-sizing:border-box;
+  width: 100%;
+  height:auto;
+  padding: 0 1rem 0rem 1rem;
+  /*margin-bottom: 4rem;*/
+}
+
+.information-frame{
+  /*background: firebrick;*/
+  margin: 1rem 0;
+  border: 1px solid #008489;
+  border-radius: 5px;
+}
+
+.information-frame>div{
+  width: 100%;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.information-frame>div>p{
+  flex: 8;
+  padding: 0 10px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.delete-icon{
+  flex: 1;
+  padding: 0 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.information-title{
+  background: #008489;
+}
+
+.weui-dialog__hd{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+
+
+
+
+
+
+
+

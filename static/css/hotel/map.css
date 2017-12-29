@@ -1,0 +1,22 @@
+.header-map{
+    position: fixed;
+    top:0px;
+    background:white;
+    z-index: 1000;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.1);
+}
+
+.footer-map{
+    position: fixed;
+    z-index: 1000;
+    bottom: 0px;
+    padding:1rem 0rem;
+    background:white;
+    width:100%;
+}
+.footer-map p{
+    padding:0rem 2rem;
+}

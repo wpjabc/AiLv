@@ -1,0 +1,102 @@
+
+.member-container{
+  width: 100%;
+  height: auto;
+}
+
+.member-bg{
+  width: 100%;
+  position: fixed;
+  top:0;
+  bottom: 0;
+  background-image: linear-gradient(315deg,#033B43,#64CEAD);
+  z-index: 1;
+}
+
+.member-content{
+  width:100%;
+  height:auto;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  z-index: 2;
+  position: relative;
+}
+
+.member-content>div:not(.header){
+  margin-top: 0.6rem;
+}
+
+#member .header{
+  width:100%;
+  height:2.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  color: white;
+}
+
+#member .deleteIcon>i{
+  font-size: 0.9rem;
+}
+
+#member .logo1{
+  width: 100%;
+  height:auto;
+  margin-top: 1rem;
+}
+
+#member .logo>img{
+  width: 5rem;
+  height: 5rem;
+  border: none;
+}
+
+#member .welcome{
+  width: 100%;
+  height:auto;
+  font-size: 1.4rem;
+  color: white;
+}
+
+#member .btn-frame{
+  width:100%;
+  margin-top: 2.4rem;
+  font-family: 微软雅黑;
+}
+
+.btn-login{
+  width:100%;
+  height:2.4rem;
+  background: #fff;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#033B43 ;
+  font-size: 1rem;
+  border: 2px solid #fff;
+}
+
+.btn-register{
+  width: 100%;
+  height:2.4rem;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  color: #ffffff;
+  border-radius: 50px;
+  border: 2px solid #fff;
+}
+
+#member .attention{
+  font-family: 微软雅黑;
+  font-size: 0.9rem;
+  color: #fff;
+  position: fixed;
+  bottom: 1rem;
+  z-index: 2;
+  padding: 0 1rem;
+}

@@ -1,0 +1,73 @@
+
+/* html, body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+} */
+ .wishlist-groupTitle{
+  margin-top:0;
+  height: 60px;
+  /* border-top: 1px solid rgba(206, 206, 206, 0.527); */
+  border-bottom: 1px solid rgba(206, 206, 206, 0.527);
+}
+.wishlist-groupTitle span{
+  margin-right: 10px;
+  margin-top:25px;
+  height:33px;
+  display: inline-block;
+  /* border-bottom:2px solid #1aa891; */
+  color:#1aa891;
+}
+.wishList .wishlist-main-title{
+  font-size: 1.5em;
+  color: #313030;
+}
+.wishList .wishlist-group-img{
+  position: relative;
+}
+.wishList .wishlist-x-icon{
+  position: absolute;
+  top:20px;
+  right:40px;
+}
+
+.wishList  .wishlist_footer{
+  display: flex;
+}
+.wishList  .wishlist_a{
+  flex: 1;
+  /* display: inline-block; */
+  height: 50px;
+  text-align: center;
+  padding: 10px;
+  font-size: 12px;
+  color:#313030;
+}
+
+
+/* 判断用的类 */
+
+.wishlist_hidden{
+  display:none;
+}
+
+.wishlist_color {
+  border-bottom:none !important;
+  color:#313030 !important;
+}
+.wishlist_a:nth-of-type(2){
+  color:#ff0000;
+}
+.wishlist_a:nth-of-type(2)>div{
+  padding:6px 5px;
+  background-color: hsla(0, 0%, 93%, 0.541);
+}
+.line{
+  background-color: #1aa891;
+  width: 28px;
+  height: 2px;
+  position: relative;
+  bottom:0px;
+  left:0px;
+  transition: all 0.3s;
+}
